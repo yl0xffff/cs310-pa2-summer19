@@ -67,7 +67,7 @@ You should complete the provided README.txt and submit it with the rest of the c
 
 1. Have a style (indentation, good variable names, etc.)
 2. Comment your code well in JavaDoc style (no need to overdo it, just do it well)
-3. Have code that compiles with the command: javac *.java in your user directory
+3. Have code that compiles with the command: _javac -cp .:json-simple-1.1.1.jar *.java_ in your user directory
 
 ### You may 
 
