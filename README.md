@@ -31,7 +31,7 @@ Options:
 
 The following code is provided to you. There are five java files: PA02.java, DynamicArray.java, LinkedList.java, Record.java, and TreeDictionary.java. 
 
-Note, we use an external library called json-simple-1.1.1.jar. Therefore, to compile the code from command line, you need:
+Note, we use an external library called **json-simple-1.1.1.jar**. Therefore, to compile the code from command line, you need:
 ```
 javac -cp .:json-simple-1.1.1.jar PA02.java
 ```
@@ -48,9 +48,9 @@ A script, called ["run"](./run), is provided to help you compile and run the exa
 ### Coding (95 points + 20 bonus points)
 
 These are the only files you should modify to finish the code. You are recommended to finish them in the given order below.
-- DynamicArray.java, 15 points 
-- LinkedList.java, 20 points 
-- TreeDictionary.java, 60 points and 20 bonus points
+- _DynamicArray.java_, 15 points 
+- _LinkedList.java_, 20 points 
+- _TreeDictionary.java_, 60 points and 20 bonus points
 
 See the commends in these java files for detail. 
 
