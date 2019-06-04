@@ -3,6 +3,21 @@
 
 Many data (e.g, records of movies, songs, video games, etc) come with keywords so these data can be eaily found using keywords. 
 You are tasked to implement a binary tree structure that allows querys composed of one or multiple keywords.
+For example, you can find pokemons using their attacts as illustrated below.
+
+```
+Welcome to CS310 PA02: Tree Dictionary
+Read 124 records from json/pokemon.json
+Options:
+	f: find records
+	p: print the tree
+	q: quit
+> f
+> Provide keywords (seprate by ,): thundershock, spark
+> Found 2 records
+> ... [Magnemite, (tackle, thundershock, spark)]
+> ... [Magneton, (tackle, thundershock, spark, zap cannon)]
+```
 
 ## Table of Contents
 * [Introduction](#introduction-and-definitions)
