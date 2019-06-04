@@ -26,6 +26,8 @@ To run the code, you need:
 java -cp .:json-simple-1.1.1.jar  PA02 -name name -keyword moves -max 10 json/pokemon.json
 '''
 
+A script, called "run", is provided to help you compile and run the examples. 
+
 ## Tasks
 
 ### Coding (95 points + 20 bonus points)
