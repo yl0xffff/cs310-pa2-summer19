@@ -14,7 +14,7 @@ public class DynamicArray<T> implements Iterable<T>
 
     public static void main(String [] args)
     {
-        //Optional: test LinkedList here
+        //Optional: test DynamicArray here
         DynamicArray<Double> A = new DynamicArray<Double>();
         for(int i=0;i<20;i++) A.insert(Math.random()*100);
         for(Double v : A)
