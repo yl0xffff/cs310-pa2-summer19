@@ -1,8 +1,23 @@
 # CS310 Programming Assignment 02 Summer 2019
 ## Tree Dictionary 
 
-Many data (e.g, records of movies, songs, video games, etc) come with keywords so these records are eaiser to find using keywords. 
+Many data (e.g, records of movies, songs, video games, etc) come with keywords so these data can be eaily found using keywords. 
 You are tasked to implement a binary tree structure that allows querys composed of one or multiple keywords.
+For example, you can find pokemons using their attacts as illustrated below.
+
+```
+Welcome to CS310 PA02: Tree Dictionary
+Read 124 records from json/pokemon.json
+Options:
+	f: find records
+	p: print the tree
+	q: quit
+> f
+> Provide keywords (seprate by ,): thundershock, spark
+> Found 2 records
+> ... [Magnemite, (tackle, thundershock, spark)]
+> ... [Magneton, (tackle, thundershock, spark, zap cannon)]
+```
 
 ## Table of Contents
 * [Introduction](#introduction-and-definitions)
@@ -16,15 +31,15 @@ You are tasked to implement a binary tree structure that allows querys composed 
 
 The following code is provided to you. There are five java files: PA02.java, DynamicArray.java, LinkedList.java, Record.java, and TreeDictionary.java. 
 
-Note, we use an external library called json-simple-1.1.1.jar. Therefore, to compile the code from command line, you need:
-'''
+Note, we use an external library called **json-simple-1.1.1.jar**. Therefore, to compile the code from command line, you need:
+```
 javac -cp .:json-simple-1.1.1.jar PA02.java
-'''
+```
 
 To run the code, you need:
-'''
+```
 java -cp .:json-simple-1.1.1.jar  PA02 -name name -keyword moves -max 10 json/pokemon.json
-'''
+```
 
 A script, called ["run"](./run), is provided to help you compile and run the examples. 
 
@@ -33,9 +48,9 @@ A script, called ["run"](./run), is provided to help you compile and run the exa
 ### Coding (95 points + 20 bonus points)
 
 These are the only files you should modify to finish the code. You are recommended to finish them in the given order below.
-- DynamicArray.java, 15 points 
-- LinkedList.java, 20 points 
-- TreeDictionary.java, 60 points and 20 bonus points
+- _DynamicArray.java_, 15 points 
+- _LinkedList.java_, 20 points 
+- _TreeDictionary.java_, 60 points and 20 bonus points
 
 See the commends in these java files for detail. 
 
@@ -52,7 +67,7 @@ You should complete the provided README.txt and submit it with the rest of the c
 
 1. Have a style (indentation, good variable names, etc.)
 2. Comment your code well in JavaDoc style (no need to overdo it, just do it well)
-3. Have code that compiles with the command: javac *.java in your user directory
+3. Have code that compiles with the command: _javac -cp .:json-simple-1.1.1.jar *.java_ in your user directory
 
 ### You may 
 
