@@ -16,10 +16,7 @@ public class LinkedList<T> implements Iterable<T>
         //Optional: test LinkedList here
         Double A[]={0.1,0.34,0.7,23.1,-0.75};
         LinkedList<Double> M = new LinkedList<Double>(A);
-        for(Double v : M)
-        {
-          System.out.println(v);
-        }
+        System.out.println("Linked List: "+M);
     }
 
 
