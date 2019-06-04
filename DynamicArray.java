@@ -1,7 +1,7 @@
 import java.util.Iterator;
 
 //
-// Complete this class: 20 points
+// Complete this class: 15 points
 //
 // Note:
 // Do NOT copy from textbook, or any other sources
