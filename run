@@ -1,0 +1,3 @@
+javac -cp .:json-simple-1.1.1.jar PA02.java; java -cp .:json-simple-1.1.1.jar  PA02 -name name -keyword moves -max 1200 json/pokemon.json
+#javac -cp .:json-simple-1.1.1.jar PA02.java; java -cp .:json-simple-1.1.1.jar  PA02 -name title -keyword actors -max 1200 json/movies.json
+#javac -cp .:json-simple-1.1.1.jar PA02.java; java -cp .:json-simple-1.1.1.jar  PA02 -name title -keyword genres -max 1200 json/movies.json
