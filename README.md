@@ -1,7 +1,7 @@
 # CS310 Programming Assignment 02 Summer 2019
 ## Tree Dictionary 
 
-Many data (e.g, records of movies, songs, video games, etc) come with keywords so these records are eaiser to find using keywords. 
+Many data (e.g, records of movies, songs, video games, etc) come with keywords so these data can be eaily found using keywords. 
 You are tasked to implement a binary tree structure that allows querys composed of one or multiple keywords.
 
 ## Table of Contents
