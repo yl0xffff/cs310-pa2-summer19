@@ -14,6 +14,11 @@
 //
 public class TreeDictionary<T extends Comparable<T>>
 {
+    public static void main(String [] args)
+    {
+        //Optional: test TreeDictionary here
+    }
+
     public void insert(Record<T> record) //20 points + 10 bonus (AVL insertion)
     {
         //insert this records into the tree based on its keywords

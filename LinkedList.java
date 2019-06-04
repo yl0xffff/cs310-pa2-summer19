@@ -11,6 +11,18 @@ import java.util.Iterator;
 //
 public class LinkedList<T> implements Iterable<T>
 {
+    public static void main(String [] args)
+    {
+        //Optional: test LinkedList here
+        Double A[]={0.1,0.34,0.7,23.1,-0.75};
+        LinkedList<Double> M = new LinkedList<Double>(A);
+        for(Double v : M)
+        {
+          System.out.println(v);
+        }
+    }
+
+
     public LinkedList(T [] A) //create a linked list from an array
     {
 
