@@ -28,8 +28,10 @@ java -cp .:json-simple-1.1.1.jar  PA02 -name name -keyword moves -max 10 json/po
 
 ## Tasks
 
-There are in total 100 points and 20 bonus points.
-- DynamicArray.java, 20 points 
+### Coding (95 points + 20 bonus points)
+
+These are the only files you should modify to finish the code. You are recommended to finish them in the given order below.
+- DynamicArray.java, 15 points 
 - LinkedList.java, 20 points 
 - TreeDictionary.java, 60 points and 20 bonus points
 
